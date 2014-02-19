@@ -1,0 +1,86 @@
+/*----------------------------------------------------------*/
+/*--------------------- Red Wine Theme ---------------------*/
+/*----------------------------------------------------------*/
+
+.eps-colour {
+    color: #784248;
+}
+
+
+
+/* Main structure */
+.eps-menu {}
+.eps-menu ul.eps-menu-list { 
+    display: block;
+    list-style: none;
+    margin: 0px; padding: 12px;
+    }
+.eps-menu ul.eps-menu-list li.type-menu_item {
+    margin-bottom: 6px;
+    padding: 0px 12px;
+    -webkit-transition: all 200ms;
+    color: #888888;
+}
+.eps-menu ul.eps-menu-list li.type-menu_item:hover {
+}
+
+
+
+
+
+/* Entry */
+.menu-item-thumb-frame {
+    float: left;
+    margin-right: 12px;
+    border: 1px solid #784248;
+}
+    .menu-item-thumb-frame .wp-post-image {
+        display: block;
+    }
+    
+.menu-item-content { }
+.menu-item-content header {
+    margin-bottom: 6px;
+    border-bottom: 1px dotted #dddddd;
+}
+
+.menu-item-content .menu-item-title { 
+    font-size: 18px;
+    margin: 0px; padding: 0px;
+    display: block;
+    }
+.menu-item-content .menu-item-subtitle { 
+    margin: 0px; padding: 0px;
+    margin-left: 16px;
+    font-size: 80%;
+    }
+    
+.menu-item-content p.menu-item-price {
+    margin: 0px; padding: 6px 0px;
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+    .menu-item-content .menu-item-price .menu-item-currency {
+        font-weight: 100; font-size: 120%; 
+        
+    }
+    .menu-item-content .menu-item-price .menu-item-serving {
+        font-weight: 100;
+        font-size: 80%;
+        font-style: italic;
+    }
+    
+.menu-item-content .menu-item-description {
+    font-style: italic;
+}
+
+
+    
+    
+    
+    
+    
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both; }
+.group { zoom: 1; }

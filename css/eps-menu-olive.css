@@ -1,0 +1,87 @@
+/*----------------------------------------------------------*/
+/*----------------------- Olive Theme ----------------------*/
+/*----------------------------------------------------------*/
+
+.eps-colour {
+    color: #989437;
+}
+
+
+
+/* Main structure */
+.eps-menu {}
+.eps-menu ul.eps-menu-list { 
+    display: block;
+    list-style: none;
+    margin: 0px; padding: 12px;
+    }
+.eps-menu ul.eps-menu-list li.type-menu_item {
+    margin-bottom: 6px;
+    padding: 6px;
+    background: #fbfbfb;
+    -webkit-transition: all 200ms;
+    border: 1px solid #fafafa;
+}
+.eps-menu ul.eps-menu-list li.type-menu_item:hover {
+    background: white;
+    border-left: 8px solid #989437;
+}
+
+
+
+
+
+/* Entry */
+.menu-item-thumb-frame {
+    float: left;
+    margin-right: 12px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 5px #dddddd;
+}
+    .menu-item-thumb-frame .wp-post-image {
+        display: block;
+    }
+    
+.menu-item-content { }
+.menu-item-content header {
+    margin-bottom: 6px;
+}
+
+.menu-item-content .menu-item-title { 
+    margin: 0px; padding: 0px;
+    display: block;
+    border-bottom: 1px dotted #d7d6b9;
+    }
+.menu-item-content .menu-item-subtitle { 
+    margin: 0px; padding: 0px;
+    margin-left: 16px;
+    font-size: 60%;
+    }
+    
+.menu-item-content p.menu-item-price {
+    margin: 0px; padding: 6px 0px;
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+    .menu-item-content .menu-item-price .menu-item-currency {
+        font-weight: bold; font-size: 120%;
+    }
+    .menu-item-content .menu-item-price .menu-item-serving {
+        font-weight: 100;
+        font-size: 80%;
+    }
+    
+.menu-item-content .menu-item-description {
+    
+}
+
+
+    
+    
+    
+    
+    
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both; }
+.group { zoom: 1; }
